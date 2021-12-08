@@ -12,3 +12,11 @@ var number1 = parseInt(prompt("Enter a number here: "));
 var number2 = parseInt(prompt("Enter a number here: "));
 alert("The result of the subtraction is "+subtract(number1, number2)+".");
 
+var multiply = function(number1, number2) {
+    return number1 * number2;
+}
+var number1 = parseInt(prompt("Enter a number here: "));
+var number2 = parseInt(prompt("Enter a number here: "));
+alert("The result of the multiplication is "+multiply(number1, number2)+".");
+
+
